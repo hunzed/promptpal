@@ -16,6 +16,7 @@ const Navbar = () => {
       const response = await getProviders();
       setProviders(response);
     }
+    setProviders();
   },[])
 
   return (
